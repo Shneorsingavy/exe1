@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: rgb(181, 179, 179);
+
+}
+
+h1{
+    text-align: center;
+    font-size: bold;
+}
+#container{
+    text-align: center;
+    border: 2px solid black;
+    width: 70%;
+    margin-left: 15%;
+    background-color: white;
+    border-radius: 30px;
+    padding-bottom: 20px;
+
+}
+
+#stopwatch{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#btn_srt, #btn_stp,#btn_rst{
+    border-radius: 8px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin: 8px;
+}
+
+#btn_srt{
+    background-color: green;
+}
+#btn_stp{
+    background-color: red;
+}
+#btn_rst{
+    background-color: rgb(35, 89, 165);
+}
